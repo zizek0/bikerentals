@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Aldona",
+    "latitude": 15.6075,
+    "longitude": 73.8758
+  },
+  {
+    "name": "Anjuna",
+    "latitude": 15.5796,
+    "longitude": 73.7468
+  },
+  {
+    "name": "Aquem",
+    "latitude": 15.2756,
+    "longitude": 73.9586
+  },
+  {
+    "name": "Arambol",
+    "latitude": 15.6892,
+    "longitude": 73.7030
+  },
+  {
+    "name": "Bambolim",
+    "latitude": 15.4644,
+    "longitude": 73.8619
+  },
+  {
+    "name": "Bandora",
+    "latitude": 15.4036,
+    "longitude": 73.9822
+  },
+  {
+    "name": "Benaulim",
+    "latitude": 15.2580,
+    "longitude": 73.9200
+  },
+  {
+    "name": "Bicholim",
+    "latitude": 15.5940,
+    "longitude": 73.9518
+  },
+  {
+    "name": "Borim",
+    "latitude": 15.3667,
+    "longitude": 74.0000
+  },
+  {
+    "name": "Calangute",
+    "latitude": 15.5549,
+    "longitude": 73.7551
+  },
+  {
+    "name": "Calapor",
+    "latitude": 15.5333,
+    "longitude": 73.8000
+  },
+  {
+    "name": "Canacona",
+    "latitude": 15.0328,
+    "longitude": 74.0231
+  },
+  {
+    "name": "Candola",
+    "latitude": 15.4167,
+    "longitude": 74.0000
+  },
+  {
+    "name": "Candolim",
+    "latitude": 15.5186,
+    "longitude": 73.7626
+  },
+  {
+    "name": "Carapur",
+    "latitude": 15.5333,
+    "longitude": 73.9833
+  },
+  {
+    "name": "Chicalim",
+    "latitude": 15.3833,
+    "longitude": 73.8667
+  },
+  {
+    "name": "Chimbel",
+    "latitude": 15.5000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Chinchinim",
+    "latitude": 15.2333,
+    "longitude": 73.9667
+  },
+  {
+    "name": "Colvale",
+    "latitude": 15.6167,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Corlim",
+    "latitude": 15.5000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Cortalim",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Cumbarjua",
+    "latitude": 15.5000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Cuncolim",
+    "latitude": 15.1833,
+    "longitude": 74.0333
+  },
+  {
+    "name": "Curchorem",
+    "latitude": 15.2500,
+    "longitude": 74.1000
+  },
+  {
+    "name": "Curti",
+    "latitude": 15.4000,
+    "longitude": 74.0000
+  },
+  {
+    "name": "Curtorim",
+    "latitude": 15.3000,
+    "longitude": 74.0000
+  },
+  {
+    "name": "Davorlim",
+    "latitude": 15.2500,
+    "longitude": 73.9667
+  },
+  {
+    "name": "Goa Velha",
+    "latitude": 15.4667,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Guirim",
+    "latitude": 15.6000,
+    "longitude": 73.8000
+  },
+  {
+    "name": "Jua",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Mandrem",
+    "latitude": 15.6667,
+    "longitude": 73.7333
+  },
+  {
+    "name": "Mapusa",
+    "latitude": 15.5914,
+    "longitude": 73.8120
+  },
+  {
+    "name": "Marcaim",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Margao",
+    "latitude": 15.2833,
+    "longitude": 73.9833
+  },
+  {
+    "name": "Mercurim",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Moira",
+    "latitude": 15.6000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Morjim",
+    "latitude": 15.6333,
+    "longitude": 73.7333
+  },
+  {
+    "name": "Murda",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Navelim",
+    "latitude": 15.2500,
+    "longitude": 73.9667
+  },
+  {
+    "name": "Nerul",
+    "latitude": 15.5833,
+    "longitude": 73.7500
+  },
+  {
+    "name": "Nuvem",
+    "latitude": 15.3667,
+    "longitude": 73.9333
+  },
+  {
+    "name": "Onda",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Orgao",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Pale",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Panjim",
+    "latitude": 15.4989,
+    "longitude": 73.8278
+  },
+  {
+    "name": "Parcem",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Penha de França",
+    "latitude": 15.5000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Pernem",
+    "latitude": 15.7333,
+    "longitude": 73.8000
+  },
+  {
+    "name": "Pilerne",
+    "latitude": 15.5500,
+    "longitude": 73.8000
+  },
+  {
+    "name": "Ponda",
+    "latitude": 15.4000,
+    "longitude": 74.0000
+  },
+  {
+    "name": "Priol",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Quela",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Quepem",
+    "latitude": 15.2000,
+    "longitude": 74.1000
+  },
+  {
+    "name": "Raia",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Reis Magos",
+    "latitude": 15.6000,
+    "longitude": 73.7500
+  },
+  {
+    "name": "Saligao",
+    "latitude": 15.6000,
+    "longitude": 73.8000
+  },
+  {
+    "name": "Salvador do Mundo",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Sancoale",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Sanguem",
+    "latitude": 15.2000,
+    "longitude": 74.1000
+  },
+  {
+    "name": "Sanquelim",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Sanvordem",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Siolim",
+    "latitude": 15.6167,
+    "longitude": 73.7500
+  },
+  {
+    "name": "Serula",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Usgao",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Valpoi",
+    "latitude": 15.6000,
+    "longitude": 74.1000
+  },
+  {
+    "name": "Varca",
+    "latitude": 15.2000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Vasco",
+    "latitude": 15.3950,
+    "longitude": 73.8150
+  },
+  {
+    "name": "Verna",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  },
+  {
+    "name": "Xeldem",
+    "latitude": 15.4000,
+    "longitude": 73.9000
+  }
+]
