@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, DM_Sans } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import NavBar from "@/components/NavBar";
 
-const dm_sans = DM_Sans({ subsets: ["latin"] });
+const dm_sans = DM_Sans({ subsets: ["latin"], display: 'swap', adjustFontFallback: false });
 
 export const metadata: Metadata = {
   title: "Bike Rentals",

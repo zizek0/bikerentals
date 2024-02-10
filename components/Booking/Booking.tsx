@@ -5,6 +5,7 @@ function Booking() {
   return (
     
     <AutocompleteAddress/>
+    
   )
 }
 

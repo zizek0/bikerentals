@@ -33,6 +33,7 @@ function InputItem(props: InputItemProps) {
     setInputValue(city.name);
     setSelectedCity(city); // Set the selected city
     setFilteredCities([]);
+    handleSearch();
   };
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -86,6 +87,7 @@ function InputItem(props: InputItemProps) {
           className="absolute bg-white mt-8 ml-10 p-2 rounded-lg shadow-md z-10"
         >
           {filteredCities.slice(0, 5).map((city) => (
+            
             <li
               key={city.name}
               className="cursor-pointer"
