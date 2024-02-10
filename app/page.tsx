@@ -1,6 +1,10 @@
 import Booking from "@/components/Booking/Booking";
-import Map from "@/components/Map/Map";
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const DynamicMap = dynamic(() => import("../components/Map/Map"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (
@@ -10,7 +14,7 @@ export default function Home() {
           <Booking />
         </div>
         <div className="col-span-2">
-          <Map />
+          <DynamicMap />
         </div>
       </div>
     </div>
