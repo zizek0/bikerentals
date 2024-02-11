@@ -9,8 +9,8 @@ const DynamicMap = dynamic(() => import("../components/Map/Map"), {
 export default function Home() {
   return (
     <div>
-      <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-5">
-        <div>
+      <div className="p-6 grid grid-cols-1 justify-center md:grid-cols-3 gap-5">
+        <div className="w-max mx-auto my-auto">
           <Booking />
         </div>
         <div className="col-span-2">

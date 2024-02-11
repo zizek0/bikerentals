@@ -26,7 +26,7 @@ function Map() {
       className="p-4 md:p-5*
     border-[2px]"
     >
-      <p className="text-[20px] font-bold">Location</p>
+      <p className="text-[20px] font-bold">📍 Bikes around you</p>
       <InputItem toggleState={handleCitySelect} />
       <p>
         {selectedCity} {latitude} {longitude}
@@ -34,7 +34,7 @@ function Map() {
 
       <MapContainer
         style={{
-          height: "50vh",
+          height: "70vh",
         }}
         center={[51.505, -0.09]}
         zoom={13}

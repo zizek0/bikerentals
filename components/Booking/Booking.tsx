@@ -1,10 +1,10 @@
 import React from 'react'
-import AutocompleteAddress from '../Booking/AutocompleteAddress'
+import Ride from './Ride'
 
 function Booking() {
   return (
     
-    <AutocompleteAddress/>
+    <Ride/>
     
   )
 }
