@@ -74,7 +74,7 @@ function AutocompleteAddress() {
             />
             <FormField
               control={form.control}
-              name="pickupTime"
+              name="pickupDateTime"
               render={({ field }) => (
                 <FormItem className="flex flex-col">
                   <FormLabel>Pickup Time</FormLabel>
