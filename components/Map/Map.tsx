@@ -37,8 +37,8 @@ function Map() {
           height: "70vh",
           
         }}
-        center={[51.505, -0.09]}
-        zoom={13}
+        center={[15.29932650, 74.12399600]}
+        zoom={10}
         scrollWheelZoom={false}
       >
         <TileLayer
