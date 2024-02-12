@@ -37,6 +37,7 @@ function Map() {
           height: "70vh",
           position: "relative",
           margin: "0.8rem 0 0 0",
+          zIndex: "0"
         }}
         center={[15.2993265, 74.123996]}
         zoom={10}
