@@ -12,7 +12,6 @@ import { toast } from "@/components/ui/use-toast";
 import { CalendarIcon } from "@radix-ui/react-icons";
 import { Input } from "@/components/ui/input"
 
-
 const FormSchema = z.object({
   pickupDateTime: z.date({
     required_error: "Pickup date and time is required.",
@@ -40,89 +39,89 @@ function AutocompleteAddress() {
 
   return (
     <div className="p-2 md:p-6 border-[2px] rounded-xl">
-      <p className="text-[40px] font-bold">Find a ride</p>
+      <p className="lg:text-[40px] text-[34px] font-bold">Find a ride</p>
       <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="mt-5 space-y-8">
-        <div className="flex space-x-4">
-        <FormField
-          control={form.control}
-          name="pickupDateTime"
-          render={({ field }) => (
-          <FormItem className="flex flex-col">
-            <FormLabel className="text-lg">Pickup Date</FormLabel>
-            <Popover>
-            <PopoverTrigger asChild>
-              <Button
-              variant={"outline"}
-              className={`w-[240px] pl-3 text-left font-normal ${
-                !field.value && "text-muted-foreground"
-              }`}
-              >
-              {field.value ? format(field.value, "PPP") : <span>Pick a date</span>}
-              <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
-              </Button>
-            </PopoverTrigger>
-            <PopoverContent className="w-auto p-0" align="start">
-              <Calendar
-              mode="single"
-              selected={field.value}
-              onSelect={field.onChange}
-              disabled={(date) => date > new Date()}
-              initialFocus
-              />
-            </PopoverContent>
-            </Popover>
-          </FormItem>
-          )}
-        />
-        <FormField
-          control={form.control}
-          name="pickupDateTime"
-          render={({ field }) => (
-          <FormItem className="flex flex-col">
-            <FormLabel className="text-lg">Pickup Time</FormLabel>
-            <Input type="time"/>
-          </FormItem>
-          )}
-        />
-        </div>
-        
-        <div className="flex space-x-4">
-        <FormField
-          control={form.control}
-          name="dropoffDateTime"
-          render={({ field }) => (
-          <FormItem className="flex flex-col">
-            <FormLabel className="text-lg">Drop off Date</FormLabel>
-            <Popover>
-            <PopoverTrigger asChild>
-              <Button
-              variant={"outline"}
-              className={`w-[240px] pl-3 text-left font-normal ${
-                !field.value && "text-muted-foreground"
-              }`}
-              >
-              {field.value ? format(field.value, "PPP") : <span>Pick a date</span>}
-              <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
-              </Button>
-            </PopoverTrigger>
-            <PopoverContent className="w-auto p-0" align="start">
-              <Calendar
-              mode="single"
-              selected={field.value}
-              onSelect={field.onChange}
-              disabled={(date) => date > new Date()}
-              initialFocus
-              />
-            </PopoverContent>
-            </Popover>
-          </FormItem>
-          )}
-        />
-        <FormField
-          control={form.control}
-          name="dropoffDateTime"
-          render={({ field }) => (
+        <form onSubmit={form.handleSubmit(onSubmit)} className="mt-5 space-y-8">
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            <FormField
+              control={form.control}
+              name="pickupDateTime"
+              render={({ field }) => (
+                <FormItem className="flex flex-col">
+                  <FormLabel className="text-lg">Pickup Date</FormLabel>
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <Button
+                        variant={"outline"}
+                        className={`w-full md:w-[240px] pl-3 text-left font-normal ${
+                          !field.value && "text-muted-foreground"
+                        }`}
+                      >
+                        {field.value ? format(field.value, "PPP") : <span>Pick a date</span>}
+                        <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                      </Button>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-auto p-0" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={field.value}
+                        onSelect={field.onChange}
+                        disabled={(date) => date > new Date()}
+                        initialFocus
+                      />
+                    </PopoverContent>
+                  </Popover>
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="pickupDateTime"
+              render={({ field }) => (
+                <FormItem className="flex flex-col">
+                  <FormLabel className="text-lg">Pickup Time</FormLabel>
+                  <Input type="time" />
+                </FormItem>
+              )}
+            />
+          </div>
+
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            <FormField
+              control={form.control}
+              name="dropoffDateTime"
+              render={({ field }) => (
+                <FormItem className="flex flex-col">
+                  <FormLabel className="text-lg">Drop off Date</FormLabel>
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <Button
+                        variant={"outline"}
+                        className={`w-full md:w-[240px] pl-3 text-left font-normal ${
+                          !field.value && "text-muted-foreground"
+                        }`}
+                      >
+                        {field.value ? format(field.value, "PPP") : <span>Pick a date</span>}
+                        <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                      </Button>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-auto p-0" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={field.value}
+                        onSelect={field.onChange}
+                        disabled={(date) => date > new Date()}
+                        initialFocus
+                      />
+                    </PopoverContent>
+                  </Popover>
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="dropoffDateTime"
+              render={({ field }) => (
                 <FormItem className="flex flex-col">
                   <FormLabel className="text-lg">Drop off Time</FormLabel>
                   <Input type="time" />
@@ -130,7 +129,7 @@ function AutocompleteAddress() {
               )}
             />
           </div>
-          
+
           <button className="p-3 bg-black w-full mt-5 text-white rounded-lg">Search for bikes</button>
         </form>
       </Form>

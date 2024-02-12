@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { UserButton } from '@clerk/nextjs'
+
 function NavBar() {
   return (
     <div className='flex justify-between p-3 px-10 py-3 border-b-[1px] shadow-sm'>
