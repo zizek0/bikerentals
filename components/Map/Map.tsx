@@ -5,14 +5,13 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.webpack.css"; // Re-uses images from ~leaflet package
 import "leaflet-defaulticon-compatibility";
-import { relative } from "path";
-
+type MapContainer = any
 function Map() {
   const [selectedCity, setSelectedCity] = useState("");
   const [latitude, setLatitude] = useState(0);
   const [longitude, setLongitude] = useState(0);
   const mapRef = useRef<MapContainer>(null);
-
+  
   const handleCitySelect = (city: string, lat: number, lon: number) => {
     setSelectedCity(city);
     setLatitude(lat);
